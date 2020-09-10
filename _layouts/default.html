@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+  <!-- CSS starts-->
 	<style>
 		.navbar
 		{
@@ -76,7 +76,7 @@
       display: block;
     }
 	</style>
-
+  <!-- CSS ends-->
 {% seo %}
   </head>
 
@@ -90,14 +90,28 @@
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
 
           <section class="navbar">
-            <a href="https://deskel.github.io/donate">Home</a>
-            <a href="https://deskel.github.io/donate">TryHackMe</a>
-            <a href="https://deskel.github.io/donate">HackTheBox</a>
-            <a href="https://deskel.github.io/donate">Vulnhub</a>
-            <a href="https://deskel.github.io/donate">ChallengeLand</a>
-            <a href="https://deskel.github.io/donate">WebHacking.kr</a>
-			<a href="https://deskel.github.io/donate">BackDoor</a>
-        </section>
+            <a href="https://oussamamater.github.io">Home</a>
+            <div class="dropdown">
+              <button class="dropbtn">CTF writeup
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="https://oussamamater.github.io">TryHackMe</a>
+                <a href="https://oussamamater.github.io">HackTheBox</a>
+                <a href="https://oussamamater.github.io">VulnHub</a>
+              </div>
+            </div>
+            <div class="dropdown">
+              <button class="dropbtn">Challenges
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="https://oussamamater.github.io">ChallengeLand</a>
+                <a href="https://oussamamater.github.io">BackDoor</a>
+                <a href="https://oussamamater.github.io">Webhacking.kr</a>
+              </div>
+            </div>
+          </section>
 
       </div>
     </header>
