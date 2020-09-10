@@ -1,0 +1,21 @@
+#site's settings
+title: oussama.sh
+description: Blog's content is being loaded
+#url: "" # the base hostname & protocol for your site, e.g. http://example.com
+#github_repository:
+baseurl: "OussamaMater"
+show_downloads: false
+google_analytics:
+theme: jekyll-theme-hacker
+
+#github page setting
+github:
+  is_project_page: false
+
+#footer
+footer: 2020 OussamaMater
+
+#Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
