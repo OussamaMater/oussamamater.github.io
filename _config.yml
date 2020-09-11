@@ -3,7 +3,7 @@ title: oussama.sh
 description: Blog's content is being loaded
 url: https://oussamamater.github.io
 show_downloads: false
-google_analytics:
+google_analytics: UA-177143278-1
 theme: jekyll-theme-hacker
 
 #github page setting
