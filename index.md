@@ -2,18 +2,6 @@
 layout: home
 ---
 
-# I Challenge YOU
-
-Rather than saying that regular `welcome to my blog` how about you solve this quick challenge I got for you!
-
-```
-SnJ5eSwgViB0aHJmZiBsYmggdGJnIHZnLCBqcnlwYnpyIGdiIHpsIG95YnQsIGxiaCB6bCBzZXZyYXEgbmVyIHZhIGd1ciBldnR1ZyBjeW5wciwgbGJoJ3l5IHN2YXEgam55eGd1ZWJodHVmIG5hcSBmcnBoZXZnbC1lcnluZ3JxIG5lZ3ZweXJmLg==
-```
-
-> hint? Earth _ROTATES_ once in about 24 hours with respect to the sun.
-
----
-
 # Latest Articles
 
 - [Article 1](#)
