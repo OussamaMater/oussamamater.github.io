@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <title>Oussama Mater | Blog</title>
+    <link rel="shortcut icon" href="/assets/images/icon.ico" type="image/x-icon">
   <!-- CSS starts-->
 	<style>
 		.navbar
@@ -68,7 +70,7 @@
 
     .dropdown-content a:hover
     {
-      background-color: #4666FF;
+      background-color: green;
     }
 
     .dropdown:hover .dropdown-content
@@ -85,20 +87,20 @@
     <header>
       <div class="container">
         <a id="a-title" href="{{ '/' | relative_url }}">
-          <h1>{{ site.title | default: site.github.repository_name }}</h1>
+          <h1>{{ site.title }}</h1>
         </a>
-        <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+        <h2>{{ site.description }}</h2>
 
           <section class="navbar">
-            <a href="https://oussamamater.github.io">Home</a>
+                <a href="https://oussamamater.github.io" class="dropbtn">Home</a>
             <div class="dropdown">
-              <button class="dropbtn">CTF writeup
+              <button class="dropbtn">CTF writeups
                 <i class="fa fa-caret-down"></i>
               </button>
               <div class="dropdown-content">
-                <a href="https://oussamamater.github.io">TryHackMe</a>
-                <a href="https://oussamamater.github.io">HackTheBox</a>
-                <a href="https://oussamamater.github.io">VulnHub</a>
+                <a href="https://oussamamater.github.io/THM/">TryHackMe</a>
+                <a href="https://oussamamater.github.io/HTB/">HackTheBox</a>
+                <a href="https://oussamamater.github.io/VH/">VulnHub</a>
               </div>
             </div>
             <div class="dropdown">
@@ -106,13 +108,12 @@
                 <i class="fa fa-caret-down"></i>
               </button>
               <div class="dropdown-content">
-                <a href="https://oussamamater.github.io">ChallengeLand</a>
-                <a href="https://oussamamater.github.io">BackDoor</a>
-                <a href="https://oussamamater.github.io">Webhacking.kr</a>
+                <a href="https://oussamamater.github.io/CL/">ChallengeLand</a>
+                <a href="https://oussamamater.github.io/BD/">BackDoor</a>
+                <a href="https://oussamamater.github.io/WH/">Webhacking.kr</a>
               </div>
             </div>
           </section>
-
       </div>
     </header>
 

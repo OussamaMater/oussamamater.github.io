@@ -4,20 +4,48 @@ layout: default
 
 <small>{{ page.date | date: "%-d %B %Y" }}</small>
 <h1>{{ page.title }}</h1>
+<!-- Time to read starts-->
+{% if page.timetoread %}
 <b>{% include reading-time.html %}</b>
-
-{{content}} {% if page.tags %}
+{% endif %}
+<!-- Time to read ends-->
+{{content}}
+<!-- Tags starts-->
+{% if page.tags %}
 <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
 {% endif %}
+<!-- Tags ends-->
 
 <hr />
 
-<p>Thanks for reading. Follow my <a href="https://twitter.com/OussamaMater">twitter</a> for latest update</p>
+<p>Thanks for reading. If you're stuck or willing to share a thought/opinion, please let me in the discuss section.</p>
+
+<!-- Disqus starts -->
+{% if page.comments %}
+<hr />
+<h3>Let's discuss</h3>
+<div id="disqus_thread"></div>
+<script>
+  (function () {
+    var d = document,
+      s = d.createElement("script");
+    s.src = "https://oussamamater.disqus.com/embed.js";
+    s.setAttribute("data-timestamp", +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+</script>
+
+{% endif %}
+<!-- Disqus ends -->
 
 <hr />
-<h3>Reach Me</h3>
-<a href="https://github.com/OussamaMater"><i class="fab fa-github fa-2x"></i></a>
-<a href="https://twitter.com/OussamaMater"><i class="fab fa-twitter fa-2x"></i></a>
-
+<div class="social" style="text-align-last: center">
+  <h3>Reach Me</h3>
+  <a href="https://github.com/OussamaMater" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+  <a href="https://twitter.com/OussamaMater" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+  <a href="https://www.facebook.com/oussama.mater.3/" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+  <a href="https://www.linkedin.com/in/oussama-mater-154465198/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+  <a href="mailto:oussamamater@outlook.com"><i class="fas fa-envelope fa-2x"></i></a>
+</div>
 <hr />
 <footer style="text-align-last: center"><small>&copy; {{ site.footer }}</small></footer>

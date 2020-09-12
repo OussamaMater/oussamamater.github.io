@@ -1,122 +1,68 @@
 ---
-layout: default
+layout: home
 ---
 
-Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
+# I Challenge YOU
 
-[Link to another page](./another-page.html).
+Rather than saying that regular `welcome to my blog` how about you solve this quick challenge I got for you!
 
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-# Header 1
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require("./lang/" + l);
-  return true;
-};
+```
+SnJ5eSwgViB0aHJmZiBsYmggdGJnIHZnLCBqcnlwYnpyIGdiIHpsIG95YnQsIGxiaCB6bCBzZXZyYXEgbmVyIHZhIGd1ciBldnR1ZyBjeW5wciwgbGJoJ3l5IHN2YXEgam55eGd1ZWJodHVmIG5hcSBmcnBoZXZnbC1lcnluZ3JxIG5lZ3ZweXJmLg==
 ```
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-- This is an unordered list following a header.
-- This is an unordered list following a header.
-- This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-| :----------- | :---------------- | :---- |
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
+> hint? Earth _ROTATES_ once in about 24 hours with respect to the sun.
 
 ---
 
-### Here is an unordered list:
+# Latest Articles
 
-- Item foo
-- Item bar
-- Item baz
-- Item zip
+- [Article 1](#)
+- [Article 2](#)
+- [Article 3](#)
+- [Article 4](#)
+- [Article 5](#)
+- [Article 6](#)
 
-### And an ordered list:
+---
 
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
+# Lost, a MAP for you
 
-### And a nested list:
+In this blog I will be covering CTF walkthroughs and random challenges, take a look:
 
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
+- Catch The Flag walkthroughs
 
-### Small image
+  - [TryHackMe](./THM/)
+  - [HackTheBox](./HTB/)
+  - [VulnHub](./VH/)
 
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
+- Different Challenges
 
-### Large image
+  - [Challenge Land](./CL/)
+  - [Webhacking.kr](./WH/)
+  - [BackDoor](./BD/)
 
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
+---
 
-### Definition lists can be used with HTML syntax.
+# Notes:
 
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
+- There will be upcoming challenges.
 
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
+- If you're here before the **_October 1st 2020_**, the articles are being written, since I've planned to post them at once, I appreciate your patient.
 
-```
-The final element.
-```
+Progress: ![50%](https://progress-bar.dev/40)
+
+---
+
+# About me
+
+Let's keep it short I'm Oussama Mater, a `developer`, a `blogger`, and by night a `CTF player`.
+
+Please don't hesitate if you have any questions, down below you'll find what you need to contact me!
+
+---
+
+# Badges
+
+In case you're wondering about my stats, **BADGES** will give you a brief look. More will be added soon.
+
+<script src="https://tryhackme.com/badge/140349"></script>
