@@ -37,8 +37,6 @@ In this blog I will be covering CTF walkthroughs and random challenges, take a l
 
 - If you're here before the **_October 1st 2020_**, the articles are being written, since I've planned to post them at once, I appreciate your patient.
 
-Progress: ![50%](https://progress-bar.dev/40)
-
 ---
 
 # About me
